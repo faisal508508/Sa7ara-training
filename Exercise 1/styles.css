@@ -1,0 +1,66 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+.center-list{
+    width: 200px;
+    margin: 0 auto;
+    text-align: auto;
+}
+.hero {
+    position: relative;
+    background: url('https://i.imgur.com/hSiLW2o.jpeg') center/cover no-repeat;
+}
+.hero-title {
+    font-size: 48px;
+    margin: auto;
+    animation: fadeInUp 1s ease-in-out;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin: auto;
+    animation: fadeInUp 1s ease-in-out 0.5s;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #006400;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin: auto;
+    text-align: center;
+}
+
+.hero-button:hover {
+    background-color: #007e00;
+}
+.card {
+    display: inline-block;
+    padding: 40px 40px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #006400;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #007e00;
+}
